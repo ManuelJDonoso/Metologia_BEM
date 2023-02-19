@@ -1,0 +1,29 @@
+.button {
+  border-radius: 0.4em;
+  padding: 0.4em 1em;
+  border: none;
+}
+
+.button--ghost-blue,
+.button--ghost-red {
+  color: #fff;
+}
+.button--ghost-blue,
+.button--ghost-red {
+  background-color: transparent;
+  border: 1px solid currentColor;
+}
+.button--blue {
+  background-color: royalblue;
+}
+.button--red {
+  background-color: firebrick;
+}
+
+.button--ghost-red {
+  color: firebrick;
+}
+
+.button--ghost-blue {
+  color: royalblue;
+}
