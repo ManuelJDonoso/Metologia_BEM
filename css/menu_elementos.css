@@ -11,3 +11,24 @@ a {
   color: aliceblue;
   text-decoration: none;
 }
+
+.menu {
+}
+
+.menu__item {
+  display: inline;
+}
+.menu__link {
+  margin-right: 1em;
+  background-color: royalblue;
+  padding: 0.5em 1em;
+}
+
+.menu--vertical .menu__item {
+  display: block;
+  margin-bottom: 1.5em;
+}
+
+.menu--vertical .menu__link {
+  border-radius: 5px;
+}
